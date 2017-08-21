@@ -1,6 +1,6 @@
 {
   "name": "redux-action-batcher",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Redux action batcher that works with custom middleware",
   "main": "lib/index.js",
   "repository": {

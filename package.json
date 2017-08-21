@@ -4,7 +4,7 @@
   "description": "Redux action batcher that works with custom middleware",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --compilers js:babel-core/register",
+    "test": "mocha --compilers js:babel-register",
     "lint": "eslint ./src",
     "build": "babel src -d lib"
   },
@@ -19,6 +19,7 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.0",
+    "babel-register": "^6.26.0",
     "eslint": "^4.5.0",
     "eslint-config-google": "^0.9.1",
     "eslint-plugin-import": "^2.7.0",

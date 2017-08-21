@@ -1,0 +1,28 @@
+{
+  "name": "redux-action-batcher",
+  "version": "1.0.0",
+  "description": "Redux action batcher that works with custom middleware",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register",
+    "lint": "eslint ./src",
+    "build": "babel src -d lib"
+  },
+  "keywords": [
+    "redux",
+    "batched",
+    "actions",
+    "middleware"
+  ],
+  "author": "Ostap Maliuvanchuk",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "eslint": "^4.5.0",
+    "eslint-config-google": "^0.9.1",
+    "eslint-plugin-import": "^2.7.0",
+    "mocha": "^3.5.0",
+    "sinon": "^3.2.1"
+  }
+}

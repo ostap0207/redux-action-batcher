@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Redux action batcher that works with custom middleware",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ostap0207/redux-action-batcher"
+  },
   "scripts": {
     "test": "mocha --compilers js:babel-register",
     "lint": "eslint ./src",

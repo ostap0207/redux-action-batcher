@@ -18,6 +18,7 @@
     "actions",
     "middleware"
   ],
+  "types": "./src/index.d.ts"
   "author": "Ostap Maliuvanchuk",
   "license": "MIT",
   "devDependencies": {

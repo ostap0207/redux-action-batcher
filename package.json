@@ -3,14 +3,15 @@
   "version": "1.0.1",
   "description": "Redux action batcher that works with custom middleware",
   "main": "lib/index.js",
+  "module": "lib/index.es.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/ostap0207/redux-action-batcher"
   },
   "scripts": {
-    "test": "npm run lint && mocha --compilers js:babel-register",
+    "test": "npm run lint && BABEL_ENV=test mocha --compilers js:babel-register",
     "lint": "eslint ./src",
-    "build": "babel src -d lib"
+    "build": "./node_modules/rollup/bin/rollup --config"
   },
   "keywords": [
     "redux",
@@ -28,6 +29,8 @@
     "eslint-config-google": "^0.9.1",
     "eslint-plugin-import": "^2.7.0",
     "mocha": "^3.5.0",
+    "rollup": "^0.50.0",
+    "rollup-plugin-babel": "^3.0.2",
     "sinon": "^3.2.1"
   }
 }

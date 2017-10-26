@@ -8,7 +8,7 @@
     "url": "https://github.com/ostap0207/redux-action-batcher"
   },
   "scripts": {
-    "test": "mocha --compilers js:babel-register",
+    "test": "npm run lint && mocha --compilers js:babel-register",
     "lint": "eslint ./src",
     "build": "babel src -d lib"
   },
